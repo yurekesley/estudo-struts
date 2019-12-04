@@ -5,13 +5,10 @@
 
 <struts>
 	<constant name="struts.devMode" value="true" />
-	
-	<constant name="strts.enable.DynamicMethodInvocation"
-		value="true" />
 
-	<package namespace="/" name="default" extends="struts-default">
+	<package name="default" extends="struts-default" namespace="/">
 		<action name="index">
-			<result>/index.jsp</result>
+			<result>index.jsp</result>
 		</action>
 	</package>
 </struts>
